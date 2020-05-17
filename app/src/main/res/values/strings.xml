@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">App Ifood Lhuizito</string>
+    <string name="titulo">Bem Vindo Entregador Ifood!</string>
+    <string name="subTitulo">Faca o login ou cadastre-se</string>
+    <string name="digite_o_email">Digite o Email</string>
+    <string name="digite_a_senha">Digite a Senha</string>
+    <string name="entrar">Entrar</string>
+    <string name="registrar">Registrar</string>
+</resources>
