@@ -11,7 +11,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/titulo"
+        android:text="@string/bem_vindo_entregador_ifood"
         app:layout_constraintBottom_toBottomOf="parent"
         android:textSize="30sp"
         android:textColor="@color/colorPrimary"
@@ -19,37 +19,52 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/subTitulo"
+        android:text="@string/digite_seus_dados_pessoais"
         app:layout_constraintBottom_toBottomOf="parent"
         android:textSize="25sp"
         android:textColor="@color/corSubTexto"
         android:gravity="center"
         android:layout_marginTop="10sp"/>
     <EditText
-        android:id="@+id/edit_email"
+        android:id="@+id/edit_nome"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="60sp"
-        android:hint="@string/digite_o_email"
-        android:textSize="20sp"
-        android:inputType="textEmailAddress"/>
-    <EditText
-        android:id="@+id/edit_senha"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="@string/digite_a_senha"
+        android:hint="@string/nome"
         android:textSize="20sp"
         android:inputType="text"/>
-    <Button
-        android:id="@+id/btn_logar"
+    <EditText
+        android:id="@+id/edit_cpf"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/entrar"
+        android:hint="@string/cpf"
+        android:textSize="20sp"
+        android:inputType="number"/>
+    <EditText
+        android:id="@+id/edit_telefone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/telefone"
+        android:textSize="20sp"
+        android:inputType="number"/>
+    <EditText
+        android:id="@+id/edit_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email"
+        android:textSize="20sp"
+        android:inputType="textEmailAddress"/>
+    <Button
+        android:id="@+id/btn_salvar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/salvar"
         android:layout_marginTop="20dp"/>
-    <Button
-        android:id="@+id/btn_registrar"
+    <CheckBox
+        android:id="@+id/cbx_confirmar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/registrar"
-        android:layout_marginTop="5dp"/>
+        android:text="@string/Txt_termoUso"
+        android:layout_marginTop="15dp"
+        android:checked="false"/>
 </LinearLayout>
